@@ -1,10 +1,14 @@
 # Alexa Louise Amundson — Professional Resume Portfolio
 
+[![Security Scan](https://github.com/blackboxprogramming/alexa-amundson-resume/actions/workflows/security-scan.yml/badge.svg)](https://github.com/blackboxprogramming/alexa-amundson-resume/actions/workflows/security-scan.yml)
+[![Auto Deploy](https://github.com/blackboxprogramming/alexa-amundson-resume/actions/workflows/auto-deploy.yml/badge.svg)](https://github.com/blackboxprogramming/alexa-amundson-resume/actions/workflows/auto-deploy.yml)
+[![Self-Healing](https://github.com/blackboxprogramming/alexa-amundson-resume/actions/workflows/self-healing.yml/badge.svg)](https://github.com/blackboxprogramming/alexa-amundson-resume/actions/workflows/self-healing.yml)
+
 **The Executive Who Codes AND Closes**
 
 ---
 
-## 📧 Contact Information
+## Contact Information
 
 - **Email:** amundsonalexa@gmail.com | blackroad.systems@gmail.com
 - **Phone:** (507) 828-0842
@@ -15,37 +19,36 @@
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
-This repository contains my complete professional resume portfolio, including technical documentation, performance reviews, and thought leadership white papers.
+This repository contains a complete professional resume portfolio, including technical documentation, performance reviews, and thought leadership white papers.
 
 ### Resume Formats
 
-| File | Word Count | Pages | Purpose |
-|------|------------|-------|---------|
-| **[alexa-amundson-one-pager.md](alexa-amundson-one-pager.md)** | 750 | 1 | Quick intro, elevator pitch, email attachment |
-| **[alexa-amundson-resume.md](alexa-amundson-resume.md)** | 3,500 | 5 | Standard resume format |
-| **[alexa-amundson-resume-enhanced.md](alexa-amundson-resume-enhanced.md)** | 6,000 | 8 | Enhanced with detailed metrics |
-| **[alexa-amundson-resume-ultimate.md](alexa-amundson-resume-ultimate.md)** | 9,700 | 15 | Comprehensive technical + commercial |
-| **[alexa-amundson-resume-executive.md](alexa-amundson-resume-executive.md)** | 17,500 | 35 | Executive deep dive with financials |
-| **[alexa-amundson-resume-master.md](alexa-amundson-resume-master.md)** | 25,000 | 100+ | **Complete business case** |
+| File | Word Count | Purpose |
+|------|------------|---------|
+| [alexa-amundson-one-pager.md](alexa-amundson-one-pager.md) | ~710 | Quick intro, elevator pitch, email attachment |
+| [alexa-amundson-resume.md](alexa-amundson-resume.md) | ~756 | Standard resume format |
+| [alexa-amundson-resume-enhanced.md](alexa-amundson-resume-enhanced.md) | ~1,809 | Enhanced with detailed metrics |
+| [alexa-amundson-resume-ultimate.md](alexa-amundson-resume-ultimate.md) | ~8,651 | Comprehensive technical + commercial |
+| [alexa-amundson-resume-executive.md](alexa-amundson-resume-executive.md) | ~6,582 | Executive deep dive with financials |
+| [alexa-amundson-resume-master.md](alexa-amundson-resume-master.md) | ~8,840 | Complete business case |
 
 ### Supporting Documents
 
 | File | Word Count | Purpose |
 |------|------------|---------|
-| **[alexa-amundson-testimonials.md](alexa-amundson-testimonials.md)** | 6,500 | Performance reviews, manager testimonials, peer references |
-| **[alexa-amundson-white-papers.md](alexa-amundson-white-papers.md)** | 12,000 | Technical deep dives, research papers, case studies |
+| [alexa-amundson-testimonials.md](alexa-amundson-testimonials.md) | ~2,987 | Performance reviews, manager testimonials, peer references |
+| [alexa-amundson-white-papers.md](alexa-amundson-white-papers.md) | ~4,471 | Technical deep dives, research papers, case studies |
 
 ### Total Portfolio
 
-- **Total Word Count:** 77,450+ words
-- **Total Pages:** 150+ pages (printed)
-- **Reading Time:** 5 hours (complete portfolio)
+- **Total Word Count:** ~35,760 words
+- **Total Files:** 8 resume/supporting documents + README
 
 ---
 
-## 🎯 Quick Start
+## Quick Start
 
 **For Recruiters/Hiring Managers:**
 - Start with: [One-Page Summary](alexa-amundson-one-pager.md)
@@ -53,177 +56,99 @@ This repository contains my complete professional resume portfolio, including te
 - Deep dive: [Executive Resume](alexa-amundson-resume-executive.md)
 
 **For Investors:**
-- Start with: [Master Resume - Investor Pitch Section](alexa-amundson-resume-master.md#investor-pitch-deck-content)
-- Then read: [Financial Models](alexa-amundson-resume-master.md#financial-models--business-projections)
+- Start with: [Master Resume](alexa-amundson-resume-master.md)
 - Deep dive: [Complete Master Resume](alexa-amundson-resume-master.md)
 
 **For Technical Leaders:**
 - Start with: [White Papers](alexa-amundson-white-papers.md)
-- Then read: [Technical Architecture](alexa-amundson-resume-executive.md#technical-architecture-deep-dive)
-- Deep dive: [Master Resume - Technical Sections](alexa-amundson-resume-master.md)
-
-**For Customers/Partners:**
-- Start with: [One-Pager](alexa-amundson-one-pager.md)
-- Then read: [Customer Success Stories](alexa-amundson-resume-executive.md#customer-success-stories)
-- Deep dive: [Sales Playbook](alexa-amundson-resume-master.md#sales-playbook--gtm-strategy)
+- Deep dive: [Master Resume](alexa-amundson-resume-master.md)
 
 ---
 
-## 🏆 Key Highlights
+## CI/CD & Infrastructure
+
+This repository uses production-grade CI/CD with all GitHub Actions pinned to commit hashes.
+
+### Workflows
+
+| Workflow | Trigger | Purpose |
+|----------|---------|---------|
+| **Security Scan** | Push, PR, weekly schedule | Secret detection, markdown validation, dependency review |
+| **Auto Deploy** | Push to main | Deploy to Cloudflare Pages, Vercel, or Railway (configurable) |
+| **Self-Healing** | Every 6 hours, post-deploy | Health monitoring, auto-issue creation, content validation |
+
+### Deployment Targets
+
+Deployments are controlled via repository variables. Set the corresponding variable to `true` to enable:
+
+| Platform | Variable | Secrets Required |
+|----------|----------|-----------------|
+| Cloudflare Pages | `CLOUDFLARE_ENABLED` | `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` |
+| Vercel | `VERCEL_ENABLED` | `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` |
+| Railway | `RAILWAY_ENABLED` | `RAILWAY_TOKEN` |
+
+### Health Monitoring
+
+Set the `DEPLOY_URL` repository variable to enable health checks. The self-healing workflow will:
+1. Check the deployment URL every 6 hours
+2. Automatically create a GitHub issue if the health check fails
+3. Avoid duplicate issues for the same failure
+
+### Dependabot
+
+Dependabot is configured to automatically update GitHub Actions dependencies weekly and create PRs for review.
+
+### Pinned Action Versions
+
+All GitHub Actions are pinned to specific commit hashes for supply-chain security:
+
+| Action | Version | Hash |
+|--------|---------|------|
+| `actions/checkout` | v4.2.2 | `11bd71901bbe5b1630ceea73d27597364c9af683` |
+| `actions/setup-node` | v4.4.0 | `49933ea5288caeca8642d1e84afbd3f7d6820020` |
+| `actions/dependency-review-action` | v4.7.1 | `da24556b548a50705dd671f47852072ea4c105d9` |
+| `actions/github-script` | v7.0.1 | `60a0d83039c74a4aee543508d2ffcb1c3799cdea` |
+| `cloudflare/wrangler-action` | v3.14.1 | `da0e0dfe58b7a431659754fdf3f186c529afbe65` |
+
+---
+
+## Key Highlights
 
 ### The Rare Tri-Hybrid: Technical + Commercial + Compliance
 
-**Most engineers can't sell. Most salespeople can't build. Almost nobody has both plus regulatory expertise.**
-
-**I do all three at enterprise scale:**
-
-- 🏗️ **Built** 466,408 lines of production code achieving 99.9% uptime (BlackRoad OS)
-- 💰 **Closed** $26.8M in enterprise sales (92% quota in 11 months at Securian Financial)
-- ✅ **Passed** SOX audits with zero findings (automated compliance engine)
-- 🎤 **Led** keynote presentations to 450+ attendees (4.8/5.0 rating)
-- 🏆 **Earned** Thought-Leadership Award (Ameriprise Financial)
+- Built 466,408 lines of production code achieving 99.9% uptime (BlackRoad OS)
+- Closed $26.8M in enterprise sales (92% quota in 11 months at Securian Financial)
+- Passed SOX audits with zero findings (automated compliance engine)
+- Led keynote presentations to 450+ attendees (4.8/5.0 rating)
+- Earned Thought-Leadership Award (Ameriprise Financial)
 
 ### Quantified Impact (Last 18 Months)
 
 | Category | Metric | Value |
 |----------|--------|-------|
-| **Revenue Generated** | Enterprise sales closed | **$26.8M** |
-| **Cost Reduction** | Cloud + CRM automation | **$438K/year** |
-| **Platform Built** | Production codebase | **466,408 LOC** |
-| **System Reliability** | Production uptime | **99.9%** |
-| **Sales Performance** | Close rate | **15%** (2.5x team avg) |
-| **Team Impact** | Productivity gains | **$399K/year** |
-
-### ROI if You Hire Me
-
-**Conservative Year 1 projection:** 11x return ($3.85M value on $350K total comp)
+| Revenue Generated | Enterprise sales closed | $26.8M |
+| Cost Reduction | Cloud + CRM automation | $438K/year |
+| Platform Built | Production codebase | 466,408 LOC |
+| System Reliability | Production uptime | 99.9% |
+| Sales Performance | Close rate | 15% (2.5x team avg) |
+| Team Impact | Productivity gains | $399K/year |
 
 ---
 
-## 📊 What's Inside
+## License
 
-### 1. Technical Portfolio
-- **BlackRoad OS:** 23 microservices, 2,119 API endpoints, 145 autonomous agents
-- **Architecture:** Full system diagrams, performance metrics, cost optimization
-- **Code Examples:** Production-quality implementations
-- **White Papers:** PS-SHA∞ verification, Edge AI economics, API-first architecture
-
-### 2. Commercial Track Record
-- **$26.8M sales** closed in 11 months (Securian Financial)
-- **$40M+ pipeline** built across 24,000-advisor network
-- **15% close rate** (2.5x team average)
-- **Sales playbook:** Complete 30-90 day sales process
-
-### 3. Compliance Expertise
-- **FINRA Series 7/63/65** (securities licenses)
-- **SOX compliance** automation (zero audit findings)
-- **PS-SHA∞** cryptographic verification system
-- **GDPR/HIPAA** experience
-
-### 4. Leadership & Strategy
-- **Hiring plans:** 3-year org chart (12 → 30 → 75 people)
-- **Financial models:** $8.35M → $47.9M ARR projection
-- **Partnership strategy:** Technology alliances, system integrators
-- **Leadership philosophy:** 6 core principles, team rituals
-
-### 5. Thought Leadership
-- **Conference keynote speaker** (450+ attendees, 4.8/5.0 rating)
-- **Thought-Leadership Award** (Ameriprise Financial)
-- **Technical white papers** (publication-quality research)
-- **Customer testimonials** (FinTech, Healthcare, Manufacturing)
+This resume portfolio is covered by the BlackRoad OS, Inc. Proprietary License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🚀 Current Role
+## Contact
 
-**Founder & CEO, BlackRoad OS** (May 2025 - Present)
-
-Building production-grade cognitive AI operating system with:
-- 79 API domains
-- 2,119 endpoints
-- 145 autonomous agents
-- 99.9% uptime
-- $2M ARR potential
-
-**Design Partners:** 10 companies (FinTech, Healthcare, Manufacturing)
-
----
-
-## 💼 Ideal Next Role
-
-**Seeking:** VP of AI Product • CTO • Head of Technical Sales • Co-Founder
-
-**Industries:** AI/ML • Enterprise SaaS • FinTech • Developer Tools
-
-**Compensation:** $200K-$300K base + meaningful equity + performance bonus
-
-**Location:** Remote-first (quarterly travel acceptable)
-
-**90-Day Guarantee:** I will deliver measurable value exceeding my total compensation within 90 days, or you can let me go with zero hard feelings.
-
----
-
-## 📝 How to Use This Repository
-
-### For Job Applications
-1. Send **one-pager** as email attachment
-2. Link to this GitHub repo in cover letter
-3. Provide **enhanced resume** or **executive resume** based on role
-4. Reference specific sections for role requirements
-
-### For Investors
-1. Share **master resume - investor pitch section**
-2. Highlight **financial models** and **competitive analysis**
-3. Provide **technical credibility** (white papers, GitHub repos)
-
-### For Customers
-1. Share **one-pager** and **case studies**
-2. Offer live demo of app.blackroad.io
-3. Provide **technical implementation guide**
-
-### For Media/Press
-1. Use **one-pager** for quick facts
-2. Reference **testimonials** for quotes
-3. Link to **white papers** for technical credibility
-
----
-
-## 📄 License
-
-This resume portfolio is **confidential and proprietary**.
-
-- ✅ **Permitted:** Share with hiring managers, investors, references
-- ❌ **Not Permitted:** Public distribution, modification, commercial use
-
-© 2025 Alexa Louise Amundson. All rights reserved.
-
----
-
-## 🔗 Quick Links
-
+- **Email:** amundsonalexa@gmail.com
+- **Phone:** (507) 828-0842
 - **LinkedIn:** [linkedin.com/in/alexaamundson](https://linkedin.com/in/alexaamundson)
 - **GitHub:** [@blackboxprogramming](https://github.com/blackboxprogramming)
-- **Portfolio:** [lucidia.earth](https://lucidia.earth)
-- **Live Platform:** [app.blackroad.io](https://app.blackroad.io)
 
 ---
 
-## 📞 Contact
-
-**Ready to talk?**
-
-📧 amundsonalexa@gmail.com
-📱 (507) 828-0842
-🗓️ [Book a call](https://calendly.com/alexaamundson) *(coming soon)*
-
----
-
-*"Most people can do one thing well. I do three things at enterprise scale: build, sell, and comply."*
-
-**— Alexa Amundson**
-
----
-
-**Last Updated:** December 22, 2025
-**Version:** 1.0
-**Repository:** github.com/alexaamundson/resume *(private)*
+**Last Updated:** March 2026
+**Repository:** [github.com/blackboxprogramming/alexa-amundson-resume](https://github.com/blackboxprogramming/alexa-amundson-resume)
