@@ -1,5 +1,11 @@
 # Alexa Louise Amundson — Professional Resume Portfolio
 
+[![Full Stack](https://img.shields.io/badge/Full--Stack-Engineer-FF6B2B.svg)](https://blackboxprogramming.github.io)
+[![AI/ML](https://img.shields.io/badge/AI%2FML-Infrastructure-3776AB.svg)](https://blackroad.io)
+[![Quantum](https://img.shields.io/badge/Quantum-Computing-CC00AA.svg)](https://blackroad.io)
+
+
+
 **The Executive Who Codes AND Closes**
 
 ---
