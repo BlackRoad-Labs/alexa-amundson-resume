@@ -14,7 +14,7 @@ AI/ML engineer operating 27 deployed language models (48.1 GB) across a distribu
 
 ## Experience
 
-### BlackRoad OS | Founder & AI Lead | 2024–Present
+### BlackRoad OS | Founder & AI Lead | 2025–Present
 
 **Model Deployment & Operations**
 - Deploy and manage 27 Ollama models (48.1 GB) across 3 edge nodes

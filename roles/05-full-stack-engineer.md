@@ -14,7 +14,7 @@ Full-stack engineer with 7.2 million lines of code across 1,603 repositories in 
 
 ## Experience
 
-### BlackRoad OS | Founder & Lead Engineer | 2024–Present
+### BlackRoad OS | Founder & Lead Engineer | 2025–Present
 
 **Frontend**
 - 75 design templates (HTML/JSX) with brand-locked design system

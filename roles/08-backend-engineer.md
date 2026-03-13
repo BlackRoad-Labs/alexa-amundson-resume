@@ -14,7 +14,7 @@ Backend engineer with 7.2M lines of code across 1,603 repos, operating 11 Postgr
 
 ## Experience
 
-### BlackRoad OS | Founder & Backend Lead | 2024–Present
+### BlackRoad OS | Founder & Backend Lead | 2025–Present
 
 **API Development**
 - CECE API (FastAPI): Custom AI model interaction with streaming responses

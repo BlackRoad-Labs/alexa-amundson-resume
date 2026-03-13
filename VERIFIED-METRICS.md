@@ -3,8 +3,8 @@
 Source: blackroad-os-kpis automated collection + full GitHub API scan across all 17 owners.
 
 ## Code
-- 7,212,576 lines of code
-- 333 commits/day, 4,019 PRs merged all-time
+- 7,212,717 lines of code
+- 327 commits/day, 4,019 PRs merged all-time
 - **1,603 GitHub repositories** across 17 owners (306 active, 1,297 archived)
 - **207 Gitea repositories** across 7 organizations (self-hosted)
 - **1,810 total repositories**
@@ -45,7 +45,7 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 ## Cloud (Cloudflare)
 - 99 Pages projects
 - 23 D1 databases
-- 46 KV namespaces
+- 47 KV namespaces
 - 11 R2 buckets
 - 48+ custom domains via 4 tunnels
 
@@ -53,13 +53,13 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 - 14 Docker containers
 - 11 PostgreSQL databases
 - 48 Nginx sites
-- 257 systemd services
+- 254 systemd services
 - 35 timers
 - 9 Tailscale peers
 
 ## Automation
-- 215 CLI tools (121 MB)
-- 91 shell scripts
+- 221 CLI tools (121 MB)
+- 92 shell scripts
 - 17 Mac crons + 35 fleet timers = 52 automated tasks
 - 230 SQLite databases (1390 MB)
 - 111 registered systems

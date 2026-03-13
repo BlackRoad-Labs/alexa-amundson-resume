@@ -14,7 +14,7 @@ Python developer with 470 Python repositories building FastAPI services, CLI too
 
 ## Experience
 
-### BlackRoad OS | Founder & Python Lead | 2024–Present
+### BlackRoad OS | Founder & Python Lead | 2025–Present
 
 **API Development (FastAPI)**
 - CECE API: AI model interaction service with streaming responses

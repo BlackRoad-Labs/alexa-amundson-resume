@@ -14,7 +14,7 @@ Solutions architect who designed and built a complete hybrid edge-cloud platform
 
 ## Experience
 
-### BlackRoad OS | Founder & Architect | 2024–Present
+### BlackRoad OS | Founder & Architect | 2025–Present
 
 **Architecture Design**
 - Hybrid edge-cloud: 5 Pi edge nodes + 2 cloud VMs + Cloudflare serverless

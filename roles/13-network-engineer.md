@@ -14,7 +14,7 @@ Network engineer operating a multi-layer network stack: WireGuard mesh VPN, Tail
 
 ## Experience
 
-### BlackRoad OS | Founder & Network Lead | 2024–Present
+### BlackRoad OS | Founder & Network Lead | 2025–Present
 
 **VPN & Mesh Networking**
 - WireGuard mesh VPN (10.8.0.x subnet) with DigitalOcean hub routing to all edge nodes

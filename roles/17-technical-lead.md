@@ -14,7 +14,7 @@ Technical lead building BlackRoad OS from zero to 7.2M LOC, 1,810 repos, and a 7
 
 ## Experience
 
-### BlackRoad OS | Founder & Technical Lead | 2024–Present
+### BlackRoad OS | Founder & Technical Lead | 2025–Present
 
 **Technical Vision & Execution**
 - Architected full-stack platform: edge compute (5 Pis) + cloud (Cloudflare + DO) + AI (27 models)

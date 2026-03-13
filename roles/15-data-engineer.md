@@ -14,7 +14,7 @@ Data engineer building pipelines that collect, aggregate, and report 60+ KPIs da
 
 ## Experience
 
-### BlackRoad OS | Founder & Data Lead | 2024–Present
+### BlackRoad OS | Founder & Data Lead | 2025–Present
 
 **Data Pipelines**
 - Built 9-collector KPI pipeline: GitHub API, Gitea API, SSH fleet probes, Cloudflare API, local system metrics

@@ -14,7 +14,7 @@ Database engineer managing 283 databases across 5 engines: 11 PostgreSQL, 230 SQ
 
 ## Experience
 
-### BlackRoad OS | Founder & Data Lead | 2024–Present
+### BlackRoad OS | Founder & Data Lead | 2025–Present
 
 **PostgreSQL**
 - 11 production databases across 3 fleet nodes (Alice, Cecilia, Lucidia)

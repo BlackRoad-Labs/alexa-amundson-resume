@@ -14,7 +14,7 @@ Security engineer who identified and remediated malware, credential leaks, and m
 
 ## Experience
 
-### BlackRoad OS | Founder & Security Lead | 2024–Present
+### BlackRoad OS | Founder & Security Lead | 2025–Present
 
 **Incident Response**
 - Discovered and removed obfuscated cron dropper executing from /tmp/op.py (Cecilia)

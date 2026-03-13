@@ -14,7 +14,7 @@ Cloud engineer managing a hybrid edge-cloud infrastructure: 99 Cloudflare Pages,
 
 ## Experience
 
-### BlackRoad OS | Founder & Cloud Architect | 2024–Present
+### BlackRoad OS | Founder & Cloud Architect | 2025–Present
 
 **Cloudflare Platform**
 - Deploy and manage 99 Pages projects with git-based CI/CD

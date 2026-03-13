@@ -14,7 +14,7 @@ SRE managing a 7-node distributed fleet with 256 systemd services, 52 automated 
 
 ## Experience
 
-### BlackRoad OS | Founder & SRE Lead | 2024–Present
+### BlackRoad OS | Founder & SRE Lead | 2025–Present
 
 **Reliability & Uptime**
 - Operate 5 Raspberry Pi edge nodes + 2 cloud VMs with WireGuard mesh connectivity

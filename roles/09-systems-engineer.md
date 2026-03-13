@@ -14,7 +14,7 @@ Systems engineer managing 256 systemd services across a 7-node Linux fleet. Deep
 
 ## Experience
 
-### BlackRoad OS | Founder & Systems Lead | 2024–Present
+### BlackRoad OS | Founder & Systems Lead | 2025–Present
 
 **Linux Systems**
 - Manage 5 Raspberry Pi nodes (Debian Bookworm) + 2 Ubuntu VMs

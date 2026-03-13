@@ -14,7 +14,7 @@ Platform engineer who built and operates a full-stack developer platform spannin
 
 ## Experience
 
-### BlackRoad OS | Founder & Platform Lead | 2024–Present
+### BlackRoad OS | Founder & Platform Lead | 2025–Present
 
 **Developer Platform**
 - Built 212 CLI tools (121 MB) for deployment, monitoring, and infrastructure management

@@ -14,7 +14,7 @@ Technical founder who built BlackRoad OS from zero to a production platform: 7.2
 
 ## Experience
 
-### BlackRoad OS | Founder & CTO | 2024–Present
+### BlackRoad OS | Founder & CTO | 2025–Present
 
 **Built From Zero**
 - 7,212,320 lines of code across 1,603 GitHub + 207 Gitea repos

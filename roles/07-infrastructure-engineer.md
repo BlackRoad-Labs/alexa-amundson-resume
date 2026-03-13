@@ -14,7 +14,7 @@ Infrastructure engineer building and operating a 7-node distributed compute flee
 
 ## Experience
 
-### BlackRoad OS | Founder & Infrastructure Lead | 2024–Present
+### BlackRoad OS | Founder & Infrastructure Lead | 2025–Present
 
 **Physical Infrastructure**
 - Built and maintain 5 Raspberry Pi edge nodes (4× Pi 5 with NVMe, 1× Pi 400)

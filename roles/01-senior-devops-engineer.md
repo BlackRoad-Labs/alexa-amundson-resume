@@ -14,7 +14,7 @@ DevOps engineer operating a 7-node distributed infrastructure spanning edge devi
 
 ## Experience
 
-### BlackRoad OS | Founder & Infrastructure Lead | 2024–Present
+### BlackRoad OS | Founder & Infrastructure Lead | 2025–Present
 
 **Infrastructure Operations**
 - Operate 5 Raspberry Pi nodes + 2 DigitalOcean droplets with WireGuard mesh VPN connecting all endpoints

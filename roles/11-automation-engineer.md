@@ -14,7 +14,7 @@ Automation engineer who built 212 CLI tools, 52 scheduled tasks, and self-healin
 
 ## Experience
 
-### BlackRoad OS | Founder & Automation Lead | 2024–Present
+### BlackRoad OS | Founder & Automation Lead | 2025–Present
 
 **CLI Tooling**
 - Built 212 CLI tools (121 MB) in ~/bin covering deployment, monitoring, stats, and fleet management

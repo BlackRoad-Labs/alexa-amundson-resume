@@ -14,7 +14,7 @@ Edge computing engineer operating a 5-node Raspberry Pi fleet with 52 TOPS AI ac
 
 ## Experience
 
-### BlackRoad OS | Founder & Edge Lead | 2024–Present
+### BlackRoad OS | Founder & Edge Lead | 2025–Present
 
 **Edge Fleet**
 - 5 Raspberry Pi nodes: 4× Pi 5 (8 GB RAM, NVMe), 1× Pi 400 (4 GB RAM)
