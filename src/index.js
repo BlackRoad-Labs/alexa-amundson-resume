@@ -491,6 +491,49 @@ const KPI_LABELS = {
   systems_registered: 'Systems Registered',
 };
 
+const KPI_SOURCES = {
+  total_loc: 'loc.sh — cloc + fleet SSH',
+  commits_today: 'github.sh — gh api events',
+  prs_merged_total: 'github.sh — gh api search/issues',
+  prs_open: 'github.sh — gh api search/issues',
+  repos_total: 'github-all-orgs.sh — gh api repos (17 owners)',
+  repos_github: 'github-all-orgs.sh — gh api repos (17 owners)',
+  repos_gitea: 'gitea.sh — Gitea REST API',
+  github_org_count: 'github-all-orgs.sh — unique owner count',
+  github_language_count: 'github-all-orgs.sh — repo language field',
+  fleet_total: 'fleet.sh — SSH probe to all nodes',
+  fleet_online: 'fleet.sh — SSH probe to all nodes',
+  avg_temp_c: 'fleet.sh — /sys/class/thermal via SSH',
+  fleet_mem_total_mb: 'fleet.sh — /proc/meminfo via SSH',
+  fleet_mem_used_mb: 'fleet.sh — /proc/meminfo via SSH',
+  fleet_disk_total_gb: 'fleet.sh — df via SSH',
+  fleet_disk_used_gb: 'fleet.sh — df via SSH',
+  fleet_connections: 'services.sh — ss -tun via SSH',
+  fleet_processes: 'services.sh — /proc count via SSH',
+  systemd_services: 'services.sh — systemctl list-units via SSH',
+  systemd_timers: 'services.sh — systemctl list-timers via SSH',
+  docker_containers: 'services.sh — docker ps via SSH',
+  docker_images: 'services.sh — docker images via SSH',
+  nginx_sites: 'services.sh — /etc/nginx/sites-enabled via SSH',
+  ollama_models: 'services.sh — ollama list via SSH',
+  ollama_size_gb: 'services.sh — ollama list via SSH',
+  postgres_dbs: 'services.sh — psql -l via SSH',
+  sqlite_dbs: 'local.sh — find ~/.blackroad -name *.db',
+  cf_pages: 'cloudflare.sh — wrangler pages list',
+  cf_d1_databases: 'cloudflare.sh — wrangler d1 list --json',
+  cf_kv_namespaces: 'cloudflare.sh — wrangler kv list',
+  cf_r2_buckets: 'cloudflare.sh — wrangler r2 bucket list',
+  failed_units: 'services.sh — systemctl --failed via SSH',
+  tailscale_peers: 'services.sh — tailscale status via SSH',
+  bin_tools: 'local.sh — ls ~/bin | wc -l',
+  home_scripts: 'local.sh — find ~/ -name *.sh',
+  templates: 'local.sh — ls ~/Desktop/templates',
+  mac_cron_jobs: 'local.sh — crontab -l | wc -l',
+  fleet_cron_jobs: 'autonomy.sh — crontab -l via SSH',
+  fts5_entries: 'local.sh — sqlite3 FTS5 count',
+  systems_registered: 'local.sh — sqlite3 systems count',
+};
+
 function fmt(key, val) {
   if (val === undefined || val === null) return '—';
   if (key === 'total_loc' || key === 'prs_merged_total' || key === 'fts5_entries') {
@@ -561,8 +604,9 @@ nav{display:flex;align-items:center;justify-content:space-between;padding:16px 4
 .metrics-table tr{border-bottom:1px solid var(--border);transition:background .2s}
 .metrics-table tr:hover{background:rgba(255,255,255,.02)}
 .metrics-table td{padding:14px 16px;font-size:14px}
-.metrics-table td:first-child{font-family:var(--jb);font-size:12px;opacity:.5;text-transform:uppercase;letter-spacing:.08em;width:200px}
-.metrics-table td:last-child{font-weight:600;text-align:right;font-family:var(--jb);font-size:18px}
+.metrics-table td:first-child{font-family:var(--jb);font-size:12px;opacity:.5;text-transform:uppercase;letter-spacing:.08em;width:180px}
+.metrics-table td:nth-child(2){font-weight:600;text-align:right;font-family:var(--jb);font-size:18px;width:120px}
+.metrics-table td:last-child{font-family:var(--jb);font-size:10px;opacity:.25;text-align:right;padding-left:24px}
 
 .collected-at{text-align:center;padding:24px;font-size:12px;opacity:.3;font-family:var(--jb)}
 
@@ -647,9 +691,25 @@ ${ROLES.map((r, i) => {
   </a>`;
 }).join('\n')}
 </div>
-<div class="collected-at">Last collected: ${s._collected_at || 'pending'} &mdash; Updated daily at 06:00</div>
+<section class="section">
+  <div class="section-title">Data Sources &mdash; 10 Collectors</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px">
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">github.sh</h3><p style="font-size:12px;opacity:.4">Commits, PRs, events via GitHub API (gh cli)</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">github-deep.sh</h3><p style="font-size:12px;opacity:.4">Stars, forks, profile, org breakdown</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">github-all-orgs.sh</h3><p style="font-size:12px;opacity:.4">Full scan of 17 GitHub owners, deduped</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">gitea.sh</h3><p style="font-size:12px;opacity:.4">Self-hosted Gitea REST API (207 repos)</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">fleet.sh</h3><p style="font-size:12px;opacity:.4">SSH probe: uptime, CPU, RAM, disk, temp</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">services.sh</h3><p style="font-size:12px;opacity:.4">Docker, Ollama, Nginx, systemd, PostgreSQL</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">autonomy.sh</h3><p style="font-size:12px;opacity:.4">Self-healing events, restarts, cron jobs</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">loc.sh</h3><p style="font-size:12px;opacity:.4">Lines of code via cloc + fleet SSH</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">local.sh</h3><p style="font-size:12px;opacity:.4">Mac: ~/bin, scripts, DBs, brew, cron, disk</p></div>
+    <div class="exp-block" style="padding:20px;margin:0"><h3 style="font-size:13px">cloudflare.sh</h3><p style="font-size:12px;opacity:.4">Pages, D1, KV, R2 via wrangler CLI</p></div>
+  </div>
+  <p style="font-size:11px;opacity:.25;margin-top:16px;font-family:var(--jb);text-align:center">Pipeline: collect (6am cron) &rarr; aggregate (daily JSON) &rarr; push to KV &rarr; Worker serves live &rarr; updated every request</p>
+</section>
+<div class="collected-at">Last collected: ${s._collected_at || 'pending'} &mdash; Updated daily at 06:00 &mdash; <a href="/api/kpis" style="opacity:.5">Raw JSON API</a></div>
 <footer>
-  <div class="footer-copy">All metrics verified from live automated KPI collection &mdash; blackroad-os-kpis<br>&copy; 2026 Alexa Amundson &mdash; BlackRoad OS</div>
+  <div class="footer-copy">All metrics verified from live automated KPI collection &mdash; <a href="https://github.com/blackboxprogramming/blackroad-os-kpis" style="opacity:.5">blackroad-os-kpis</a><br>&copy; 2026 Alexa Amundson &mdash; BlackRoad OS, Inc.</div>
 </footer>
 <div class="grad-bar"></div>
 <script>
@@ -727,17 +787,18 @@ function resumePage(role, kpis) {
 <section class="section">
   <div class="section-title">Live Metrics Dashboard</div>
   <table class="metrics-table">
-    ${role.kpis.map(k => `<tr><td>${KPI_LABELS[k]||k}</td><td>${fmt(k, s[k])}</td></tr>`).join('\n    ')}
+    <tr style="border-bottom:2px solid var(--border)"><td style="opacity:.3;font-size:10px">METRIC</td><td style="opacity:.3;font-size:10px;text-align:right">VALUE</td><td style="opacity:.15;font-size:10px;text-align:right">SOURCE</td></tr>
+    ${role.kpis.map(k => `<tr><td>${KPI_LABELS[k]||k}</td><td>${fmt(k, s[k])}</td><td>${KPI_SOURCES[k]||'—'}</td></tr>`).join('\n    ')}
   </table>
 </section>
 
-<div class="collected-at">Last collected: ${s._collected_at || 'pending'} &mdash; Updated daily at 06:00 &mdash; Source: blackroad-os-kpis</div>
+<div class="collected-at">Last collected: ${s._collected_at || 'pending'} &mdash; Updated daily at 06:00 &mdash; <a href="/api/kpis" style="opacity:.5">Raw JSON API</a></div>
 
 <footer>
   <div class="footer-roles">
     ${ROLES.map(r => `<a href="/${r.slug}" class="${r.slug === role.slug ? 'active' : ''}">${r.num} ${r.title}</a>`).join('')}
   </div>
-  <div class="footer-copy">All metrics verified from live automated KPI collection<br>&copy; 2026 Alexa Amundson &mdash; BlackRoad OS</div>
+  <div class="footer-copy">Every metric sourced from <a href="https://github.com/blackboxprogramming/blackroad-os-kpis" style="opacity:.5">blackroad-os-kpis</a> &mdash; 10 collectors, 80+ keys, updated daily<br>&copy; 2026 Alexa Amundson &mdash; BlackRoad OS, Inc.</div>
 </footer>
 <div class="grad-bar"></div>
 <script>
