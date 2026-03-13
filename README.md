@@ -65,15 +65,15 @@ AI
 
 CLOUD (Cloudflare)
   Pages projects                 99
-  D1 databases                   22
+  D1 databases                   23
   KV namespaces                  46
   R2 buckets                     11
   Domains                       48+
 
 DATA
-  Total databases               263
+  Total databases               264
   PostgreSQL                     11
-  SQLite                        230  (1391 MB)
+  SQLite                        230  (1390 MB)
 
 AUTOMATION
   CLI tools                     215  (121 MB)

@@ -44,7 +44,7 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 
 ## Cloud (Cloudflare)
 - 99 Pages projects
-- 22 D1 databases
+- 23 D1 databases
 - 46 KV namespaces
 - 11 R2 buckets
 - 48+ custom domains via 4 tunnels
@@ -61,6 +61,6 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 - 215 CLI tools (121 MB)
 - 91 shell scripts
 - 17 Mac crons + 35 fleet timers = 52 automated tasks
-- 230 SQLite databases (1391 MB)
+- 230 SQLite databases (1390 MB)
 - 111 registered systems
 - 60+ KPIs tracked daily across 9 collectors
