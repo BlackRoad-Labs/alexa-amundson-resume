@@ -35,53 +35,51 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ---
 
-## Verified Metrics (2026-03-12)
+## Verified Metrics (2026-03-13)
 
 All numbers collected by [blackroad-os-kpis](https://github.com/blackboxprogramming/blackroad-os-kpis).
 
 ```
 CODE
-  Lines of code          7,212,320
-  Commits/day                  326
-  PRs merged (all time)      4,019
-  Repositories       309 (102 GH + 207 Gitea)
-  Languages                     10
+  Lines of code           7,212,576
+  Commits/day                   331
+  PRs merged (all time)       4,019
+  GitHub repos                  306  (0 active, 17 orgs)
+  Gitea repos                   207  (7 orgs)
+  Total repos                   513
+  Languages                      20
+  GitHub size                   0 GB
 
 INFRASTRUCTURE
-  Fleet nodes                    7
-  Systemd services             256
+  Fleet nodes                     4
+  Systemd services              256
   Docker containers              14
   Nginx sites                    48
   Fleet storage              707 GB
-  Fleet RAM                   20 GB
+  Fleet RAM                   19 GB
 
 AI
-  Models deployed          27 (48.1 GB)
-  AI acceleration          52 TOPS
-  Custom models                  4
+  Models deployed                27  (48.1 GB)
+  AI acceleration             52 TOPS
+  Custom models                   4
 
 CLOUD (Cloudflare)
-  Pages projects                99
-  D1 databases                  22
-  KV namespaces                 46
-  R2 buckets                    11
-  Domains                      48+
+  Pages projects                 99
+  D1 databases                   22
+  KV namespaces                  46
+  R2 buckets                     11
+  Domains                       48+
 
 DATA
-  Total databases              283
-  PostgreSQL                    11
-  SQLite                  230 (1.4 GB)
+  Total databases               263
+  PostgreSQL                     11
+  SQLite                        230  (1389 MB)
 
 AUTOMATION
-  CLI tools                    212
-  Automated tasks               52
-  KPIs tracked                 60+
-  Data collectors                9
-
-LOCAL
-  Brew packages                293
-  Design templates              75
-  Shell scripts                 91
+  CLI tools                     215  (121 MB)
+  Automated tasks                52
+  KPIs tracked                  60+
+  Data collectors                 9
 ```
 
 ---

@@ -8,7 +8,7 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ## Summary
 
-Full-stack engineer with 7.2 million lines of code across 102 repositories in 10 languages. Builds end-to-end applications from React/Next.js frontends to Python/Node.js APIs, deployed across 99 Cloudflare Pages and 7 backend nodes serving 48+ domains.
+Full-stack engineer with 7.2 million lines of code across 1,603 repositories in 20 languages. Builds end-to-end applications from React/Next.js frontends to Python/Node.js APIs, deployed across 99 Cloudflare Pages and 7 backend nodes serving 48+ domains.
 
 ---
 
@@ -55,7 +55,7 @@ Full-stack engineer with 7.2 million lines of code across 102 repositories in 10
 **Backend:** Python/FastAPI, Node.js, Express, Bash
 **Databases:** PostgreSQL, SQLite/FTS5, Cloudflare D1, KV, R2, Qdrant
 **Infrastructure:** Docker, Nginx, Linux, WireGuard, Cloudflare Tunnels
-**Languages:** JavaScript (32), Python (26), HTML (21), TypeScript (14), Shell (10), Go (2), C (2)
+**Languages:** JavaScript (114), Python (470), HTML (314), TypeScript (85), Shell (160), Go (2), C (2)
 
 ---
 
@@ -64,8 +64,8 @@ Full-stack engineer with 7.2 million lines of code across 102 repositories in 10
 | Metric | Value |
 |--------|-------|
 | Lines of code | 7,212,320 |
-| Repositories | 102 |
-| Languages | 10 |
+| Repositories | 1,810 |
+| Languages | 20 |
 | Pages deployed | 99 |
 | Databases | 283 total |
 | API services | 6+ |

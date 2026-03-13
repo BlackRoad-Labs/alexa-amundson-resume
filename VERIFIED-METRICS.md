@@ -1,65 +1,49 @@
-# Verified BlackRoad OS Metrics (2026-03-12)
+# Verified BlackRoad OS Metrics (2026-03-13)
 
-Source: blackroad-os-kpis automated collection. Every number below is machine-verified.
+Source: blackroad-os-kpis automated collection + full GitHub API scan across all 17 owners.
 
 ## Code
-- 7,212,320 lines of code
-- 326 commits/day (peak), 4,019 PRs merged all-time
-- 102 GitHub repositories (73 active, 85 archived across 3 orgs)
-- 158 public repos total (user + orgs)
-- 10 languages: JavaScript (32), Python (26), HTML (21), TypeScript (14), Shell (10), Dockerfile (7), C (2), Go (2), MDX (1), CSS (1)
-- 3.7 GB total repo size
+- 7,212,576 lines of code
+- 331 commits/day, 4,019 PRs merged all-time
+- **306 GitHub repositories** across 17 owners (0 active, 0 archived)
+- **207 Gitea repositories** across 7 organizations (self-hosted)
+- **513 total repositories**
+- 20 languages: 
+- 0 GB total GitHub repo size
+- 0 stars, 17 organizations
+
+## GitHub Organizations (0 owners)
 
 ## Infrastructure
-- 5 Raspberry Pi nodes (Pi 5 × 4, Pi 400 × 1), 2 DigitalOcean droplets
-- 52 TOPS AI acceleration (2× Hailo-8 NPUs)
-- 20 GB fleet RAM, 707 GB fleet storage
+- 5 Raspberry Pi nodes (Pi 5 x 4, Pi 400 x 1), 2 DigitalOcean droplets
+- 52 TOPS AI acceleration (2x Hailo-8 NPUs)
+- 19 GB fleet RAM, 707 GB fleet storage
 - WireGuard mesh VPN across all nodes
-- RoadNet carrier-grade WiFi mesh (5 APs, dedicated subnets)
 
 ## AI/ML
-- 27 Ollama models deployed (48.1 GB), 15 on Cecilia, 6 on Lucidia
-- Custom CECE personality models (4 fine-tuned)
-- Hailo-8 NPU inference on 2 nodes
+- 27 Ollama models deployed (48.1 GB)
+- 4 custom fine-tuned CECE models
+- 2x Hailo-8 NPU (52 TOPS)
 
 ## Cloud (Cloudflare)
-- 99 Pages projects deployed
-- 22 D1 databases (40 MB)
+- 99 Pages projects
+- 22 D1 databases
 - 46 KV namespaces
-- 11 R2 object storage buckets
-- 48+ custom domains routed via 4 Cloudflare tunnels
+- 11 R2 buckets
+- 48+ custom domains via 4 tunnels
 
 ## Services
-- 14 Docker containers running
+- 14 Docker containers
 - 11 PostgreSQL databases
-- 48 Nginx reverse proxy sites
-- 256 systemd services managed
-- 35 systemd timers (scheduled automation)
-- 9 Tailscale mesh peers
+- 48 Nginx sites
+- 256 systemd services
+- 35 timers
+- 9 Tailscale peers
 
 ## Automation
-- 212 CLI tools in ~/bin (121 MB)
-- 91 shell scripts in home directory
-- 17 Mac cron jobs + 35 fleet timers = 52 automated tasks
-- 230 SQLite databases (1.4 GB) for state management
+- 215 CLI tools (121 MB)
+- 91 shell scripts
+- 17 Mac crons + 35 fleet timers = 52 automated tasks
+- 230 SQLite databases (1389 MB)
 - 111 registered systems
-- Self-healing autonomy (heartbeat + heal scripts on all nodes)
-- Daily KPI collection across 9 data sources
-
-## Monitoring
-- Fleet power optimization (CPU governors, voltage management)
-- Thermal monitoring (avg 44.8°C across fleet)
-- Distributed observability with traces database
-- Per-node health probes via SSH
-
-## DevOps
-- GitHub Actions CI/CD
-- Gitea self-hosted (207 repos across 7 orgs on Octavia)
-- GitHub-to-Gitea relay (30-minute sync)
-- Cloudflare Workers deployment pipeline
-- Docker Swarm orchestration
-
-## Brand/Design
-- 75 design templates (HTML/JSX)
-- 15 page template types with brand-locked design system
-- 6-color gradient system with 3 font families
+- 60+ KPIs tracked daily across 9 collectors

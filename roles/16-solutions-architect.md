@@ -8,7 +8,7 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ## Summary
 
-Solutions architect who designed and built a complete hybrid edge-cloud platform: 7 compute nodes, 99 Cloudflare deployments, 309 repositories, 283 databases, 27 AI models, and 48+ production domains. Architects systems spanning infrastructure, application, data, and AI layers.
+Solutions architect who designed and built a complete hybrid edge-cloud platform: 7 compute nodes, 99 Cloudflare deployments, 1,810 repositories, 283 databases, 27 AI models, and 48+ production domains. Architects systems spanning infrastructure, application, data, and AI layers.
 
 ---
 
@@ -23,7 +23,7 @@ Solutions architect who designed and built a complete hybrid edge-cloud platform
 - AI inference tier: 27 models distributed across 3 nodes with NPU acceleration (52 TOPS)
 
 **Platform Scale**
-- 7,212,320 lines of code across 102 GitHub repos (10 languages)
+- 7,212,320 lines of code across 1,603 GitHub repos (20 languages)
 - 207 Gitea repos across 7 organizations (self-hosted)
 - 99 Cloudflare Pages, 22 D1, 46 KV, 11 R2 for serverless layer
 - 256 systemd services, 14 Docker containers, 48 Nginx sites

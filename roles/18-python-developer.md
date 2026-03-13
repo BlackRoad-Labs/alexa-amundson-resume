@@ -8,7 +8,7 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ## Summary
 
-Python developer with 26 Python repositories building FastAPI services, CLI tools, data pipelines, AI model interfaces, and automation scripts. Operates 11 PostgreSQL databases, 230 SQLite databases, and production APIs serving 27 AI models across a distributed fleet.
+Python developer with 470 Python repositories building FastAPI services, CLI tools, data pipelines, AI model interfaces, and automation scripts. Operates 11 PostgreSQL databases, 230 SQLite databases, and production APIs serving 27 AI models across a distributed fleet.
 
 ---
 
@@ -63,7 +63,7 @@ Python developer with 26 Python repositories building FastAPI services, CLI tool
 
 | Metric | Value |
 |--------|-------|
-| Python repos | 26 |
+| Python repos | 470 |
 | APIs built | 4+ |
 | SQLite DBs | 230 |
 | PostgreSQL DBs | 11 |

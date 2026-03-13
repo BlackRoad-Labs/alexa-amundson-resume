@@ -41,7 +41,7 @@ Product engineer who built BlackRoad OS from concept to production: 99 deployed 
 - Self-healing autonomy on all production nodes
 
 **Metrics & Growth**
-- 7,212,320 lines of code across 102 repos
+- 7,212,320 lines of code across 1,603 repos
 - 326 commits/day development velocity
 - 4,019 PRs merged
 - 60+ KPIs tracked daily across 9 collectors

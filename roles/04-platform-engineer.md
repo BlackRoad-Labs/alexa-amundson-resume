@@ -8,7 +8,7 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ## Summary
 
-Platform engineer who built and operates a full-stack developer platform spanning 7 nodes, 99 Cloudflare deployments, and 309 repos (102 GitHub + 207 Gitea). Designed self-service tooling (212 CLI tools), automated deployment pipelines, and a daily metrics system tracking 60+ KPIs.
+Platform engineer who built and operates a full-stack developer platform spanning 7 nodes, 99 Cloudflare deployments, and 1,810 repos (1,603 GitHub + 207 Gitea). Designed self-service tooling (212 CLI tools), automated deployment pipelines, and a daily metrics system tracking 60+ KPIs.
 
 ---
 
@@ -52,7 +52,7 @@ Platform engineer who built and operates a full-stack developer platform spannin
 
 **Platform:** Cloudflare (Pages, Workers, D1, KV, R2), Docker Swarm, Gitea, GitHub Actions
 **Infrastructure:** Linux, systemd (256 services), Nginx, WireGuard, Tailscale
-**Languages:** JavaScript (32 repos), Python (26 repos), TypeScript (14 repos), Shell (10 repos), Go (2 repos)
+**Languages:** JavaScript (114 repos), Python (470 repos), TypeScript (85 repos), Shell (160 repos), Go (2 repos)
 **Databases:** PostgreSQL, SQLite, D1, KV, Qdrant
 **Tools:** 212 custom CLI tools, Wrangler, Docker, cron (52 automated tasks)
 

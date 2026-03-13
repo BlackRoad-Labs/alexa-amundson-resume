@@ -66,4 +66,4 @@ DevOps engineer operating a 7-node distributed infrastructure spanning edge devi
 | Docker containers | 14 |
 | Cloudflare deployments | 99 |
 | CLI tools built | 212 |
-| Repos managed | 102 GitHub + 207 Gitea |
+| Repos managed | 1,603 GitHub + 207 Gitea |

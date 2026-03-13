@@ -8,7 +8,7 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ## Summary
 
-Technical lead building BlackRoad OS from zero to 7.2M LOC, 309 repos, and a 7-node production fleet. Drives technical direction across AI/ML, infrastructure, cloud, and developer tooling. 326 commits/day velocity with 4,019 PRs merged and 60+ KPIs tracked daily.
+Technical lead building BlackRoad OS from zero to 7.2M LOC, 1,810 repos, and a 7-node production fleet. Drives technical direction across AI/ML, infrastructure, cloud, and developer tooling. 326 commits/day velocity with 4,019 PRs merged and 60+ KPIs tracked daily.
 
 ---
 
@@ -18,7 +18,7 @@ Technical lead building BlackRoad OS from zero to 7.2M LOC, 309 repos, and a 7-n
 
 **Technical Vision & Execution**
 - Architected full-stack platform: edge compute (5 Pis) + cloud (Cloudflare + DO) + AI (27 models)
-- Grew codebase to 7,212,320 LOC across 102 GitHub repos in 10 languages
+- Grew codebase to 7,212,320 LOC across 1,603 GitHub repos in 20 languages
 - Maintained 326 commits/day development velocity
 - Merged 4,019 pull requests across all repositories
 
@@ -65,7 +65,7 @@ Technical lead building BlackRoad OS from zero to 7.2M LOC, 309 repos, and a 7-n
 | Lines of code | 7,212,320 |
 | Commits/day | 326 |
 | PRs merged | 4,019 |
-| Repos | 309 |
+| Repos | 1,810 |
 | AI models | 27 |
 | Fleet nodes | 7 |
 | KPIs tracked | 60+ |

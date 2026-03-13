@@ -8,7 +8,7 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ## Summary
 
-Backend engineer with 7.2M lines of code across 102 repos, operating 11 PostgreSQL databases, 230 SQLite databases, 14 Docker services, and multiple API backends (FastAPI, Node.js) serving 48+ domains through Nginx reverse proxy.
+Backend engineer with 7.2M lines of code across 1,603 repos, operating 11 PostgreSQL databases, 230 SQLite databases, 14 Docker services, and multiple API backends (FastAPI, Node.js) serving 48+ domains through Nginx reverse proxy.
 
 ---
 
@@ -48,7 +48,7 @@ Backend engineer with 7.2M lines of code across 102 repos, operating 11 PostgreS
 
 ## Technical Skills
 
-**Languages:** Python (26 repos), JavaScript (32 repos), TypeScript (14 repos), Bash, Go, C
+**Languages:** Python (470 repos), JavaScript (114 repos), TypeScript (85 repos), Bash, Go, C
 **Frameworks:** FastAPI, Node.js/Express, Next.js API routes
 **Databases:** PostgreSQL, SQLite/FTS5, Cloudflare D1/KV, Qdrant (vector)
 **Infrastructure:** Docker, Nginx, systemd, Linux
@@ -66,4 +66,4 @@ Backend engineer with 7.2M lines of code across 102 repos, operating 11 PostgreS
 | D1 databases | 22 |
 | API services | 6+ |
 | Docker containers | 14 |
-| Repos | 102 |
+| Repos | 1,810 |

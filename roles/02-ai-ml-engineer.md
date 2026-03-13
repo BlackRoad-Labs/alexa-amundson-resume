@@ -50,7 +50,7 @@ AI/ML engineer operating 27 deployed language models (48.1 GB) across a distribu
 ## Technical Skills
 
 **AI/ML:** Ollama, Hailo-8 NPU, DALL-E, Flux, SDXL, custom fine-tuning, LLM orchestration
-**Languages:** Python (26 repos), JavaScript (32 repos), TypeScript (14 repos), Bash, Go, C
+**Languages:** Python (470 repos), JavaScript (114 repos), TypeScript (85 repos), Bash, Go, C
 **Frameworks:** FastAPI, Next.js, React, Node.js
 **Infrastructure:** Raspberry Pi 5 fleet, Docker Swarm, WireGuard, Cloudflare
 **Databases:** PostgreSQL, SQLite/FTS5, Cloudflare D1, KV stores, Qdrant (vector)
@@ -68,4 +68,4 @@ AI/ML engineer operating 27 deployed language models (48.1 GB) across a distribu
 | Image gen agents | 4 |
 | Databases | 241 (11 PG + 230 SQLite) |
 | Lines of code | 7,212,320 |
-| Repos | 102 |
+| Repos | 1,810 |

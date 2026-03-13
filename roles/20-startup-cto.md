@@ -8,7 +8,7 @@ amundsonalexa@gmail.com | [github.com/blackboxprogramming](https://github.com/bl
 
 ## Summary
 
-Technical founder who built BlackRoad OS from zero to a production platform: 7.2M LOC, 309 repos, 7-node fleet, 99 cloud deployments, 27 AI models, 283 databases, and 48+ live domains. Operates the entire technical stack — infrastructure, backend, frontend, AI, DevOps, security, and observability — solo.
+Technical founder who built BlackRoad OS from zero to a production platform: 7.2M LOC, 1,810 repos, 7-node fleet, 99 cloud deployments, 27 AI models, 283 databases, and 48+ live domains. Operates the entire technical stack — infrastructure, backend, frontend, AI, DevOps, security, and observability — solo.
 
 ---
 
@@ -17,8 +17,8 @@ Technical founder who built BlackRoad OS from zero to a production platform: 7.2
 ### BlackRoad OS | Founder & CTO | 2024–Present
 
 **Built From Zero**
-- 7,212,320 lines of code across 102 GitHub + 207 Gitea repos
-- 10 programming languages: JavaScript, Python, TypeScript, HTML, Shell, Dockerfile, Go, C, MDX, CSS
+- 7,212,320 lines of code across 1,603 GitHub + 207 Gitea repos
+- 20 programming languages: JavaScript, Python, TypeScript, HTML, Shell, Dockerfile, Go, C, MDX, CSS
 - 326 commits/day sustained velocity, 4,019 PRs merged
 - 212 CLI tools (121 MB) built for operational efficiency
 
@@ -69,8 +69,8 @@ Technical founder who built BlackRoad OS from zero to a production platform: 7.2
 | **Code** | Lines of code | 7,212,320 |
 | | Commits/day | 326 |
 | | PRs merged | 4,019 |
-| | Repositories | 309 |
-| | Languages | 10 |
+| | Repositories | 1,810 |
+| | Languages | 20 |
 | **Infra** | Fleet nodes | 7 |
 | | Systemd services | 256 |
 | | Docker containers | 14 |
