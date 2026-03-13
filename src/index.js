@@ -1,4 +1,4 @@
-// Alexa Amundson — 20 Live Resume Dashboards
+// Alexa Amundson — 25 Live Resume Dashboards
 // Cloudflare Worker serving brand-locked resume pages with live KPI data
 
 const ROLES = [
@@ -418,13 +418,13 @@ const ROLES = [
     kpis: ['cf_pages', 'templates', 'repos_total', 'total_loc', 'nginx_sites', 'bin_tools'],
   },
   { slug: 'cto', num: '20', title: 'Startup CTO', accent: '#CC00AA',
-    summary: 'Technical founder who built BlackRoad OS from zero to a production platform: 7.2M LOC, 1,810 repos, 7-node fleet, 99 cloud deployments, 27 AI models, 283 databases, and 48+ live domains. Solo.',
+    summary: 'Technical founder who orchestrated AI agents to build BlackRoad OS from zero: 7.2M LOC, 1,810 repos, 7-node fleet, 96 Workers, 27 AI models, 283 databases, and 54 live domains. One person directing agents.',
     sections: [
-      { title: 'Built From Zero', bullets: [
-        '7.2M+ lines of code across 1,603 GitHub + 207 Gitea repos',
-        '20 programming languages, 51,000+ commits YTD sustained velocity',
-        '223 CLI tools built for operational efficiency',
-        '4,019 PRs merged all-time',
+      { title: 'Orchestrated From Zero', bullets: [
+        '7.2M+ lines of code (5.0M unique non-duped) — directed AI agents to write it, reviewed and shipped it',
+        '20 programming languages, 51,000+ commits YTD — sustained 700/day velocity via agent orchestration',
+        '223 CLI tools — defined patterns once, agents replicated consistently across all tools',
+        '4,019 PRs merged — agent-generated code reviewed and merged through disciplined workflow',
       ]},
       { title: 'Infrastructure', bullets: [
         '5 Pi edge nodes + 2 cloud VMs + Cloudflare serverless',
@@ -445,6 +445,137 @@ const ROLES = [
     ],
     skills: ['everything'],
     kpis: ['commits_ytd', 'total_loc', 'unique_loc', 'non_fork_repos', 'github_contributions_ytd', 'github_commit_streak_days', 'github_avg_commits_per_day', 'github_clones_14d', 'repos_total', 'github_repos_updated_7d', 'prs_merged_total', 'github_issues_closed_total', 'fleet_total', 'ollama_models', 'cf_pages', 'cf_workers_total', 'cf_tunnels_healthy', 'docker_containers', 'systemd_services', 'nginx_sites'],
+  },
+  { slug: 'agent-orchestrator', num: '21', title: 'AI Agent Orchestrator', accent: '#FF2255',
+    summary: 'Directed AI coding agents (Claude, GPT, Gemini) to produce 7.2M LOC across 1,810 repos. Didn\'t write it — architected the system, defined the specs, reviewed the output, and shipped it.',
+    sections: [
+      { title: 'Agent-Driven Development', bullets: [
+        'Orchestrated Claude Code, GPT-4, and Gemini agents to generate production code across 20 languages',
+        'Directed 51,211 commits in 2026 — average 700/day sustained velocity via agent orchestration',
+        'Defined architecture specs, reviewed agent output, iterated on quality, merged and deployed',
+        'Built 223 CLI tools, 101 Cloudflare Pages, 96 Workers — all via agent-directed development',
+      ]},
+      { title: 'Orchestration Methodology', bullets: [
+        'System-level prompting: CLAUDE.md files define project context, conventions, and constraints for every repo',
+        'Multi-agent pipelines: different agents for architecture, implementation, testing, deployment',
+        'Quality gates: human review at architecture decisions, agent handles implementation details',
+        'Iteration loops: spec → agent draft → review → refinement → ship — no manual line-by-line coding',
+      ]},
+      { title: 'What This Produced', bullets: [
+        '7.2M LOC (5.0M unique non-duplicated) — 1,563 non-fork original repos (97% her own specs)',
+        'Complete sovereign OS: CLI dispatcher, AI gateway, fleet automation, KPI pipeline, brand system',
+        'Self-updating resume system: 11 collectors → 60+ KPIs → live on 20 role pages → auto-commits daily',
+        'Custom programming language (RoadC) with lexer, parser, and interpreter — directed agent to build it',
+      ]},
+      { title: 'Why This Matters', bullets: [
+        'The future of software is directing agents, not typing code — this is 10 months of proof',
+        'One person + AI agents = output of a 20-person engineering team',
+        'The skill is knowing WHAT to build, HOW to spec it, and WHEN the agent output is wrong',
+        'Shipped to production daily — not toy demos, real infrastructure serving real traffic',
+      ]},
+    ],
+    skills: ['Claude Code', 'GPT-4', 'Gemini', 'Prompt Engineering', 'System Architecture', 'Code Review', 'CLAUDE.md', 'Agent Pipelines', 'Technical Direction'],
+    kpis: ['commits_ytd', 'total_loc', 'unique_loc', 'non_fork_repos', 'repos_total', 'github_contributions_ytd', 'github_commit_streak_days', 'github_avg_commits_per_day', 'github_clones_14d', 'prs_merged_total', 'bin_tools', 'cf_pages', 'cf_workers_total'],
+  },
+  { slug: 'ai-director', num: '22', title: 'Technical AI Director', accent: '#9C27B0',
+    summary: 'Technical director who treats AI agents as a team. Defines architecture, writes specs, assigns work to agents, reviews output, and ships. Built a 7.2M LOC platform this way in 10 months.',
+    sections: [
+      { title: 'Directing AI Teams', bullets: [
+        'Treat each AI agent as a team member with strengths: Claude for architecture, GPT for breadth, Gemini for speed',
+        'Write CLAUDE.md project files that give agents full context — conventions, structure, dependencies, constraints',
+        'Break complex systems into agent-sized tasks: "build the lexer," "add SSE streaming," "write the fleet probe"',
+        'Review agent output like a tech lead reviews PRs — catch architectural mistakes, not typos',
+      ]},
+      { title: 'Production Results', bullets: [
+        '1,810 repositories across 17 GitHub organizations — all agent-directed',
+        '96 Cloudflare Workers, 101 Pages, 25 D1 databases — production infrastructure, not prototypes',
+        '223 CLI tools, each with its own SQLite database — consistent patterns across all tools',
+        '11 KPI collectors gathering 60+ metrics daily — agents built the monitoring for what agents built',
+      ]},
+      { title: 'Technical Judgment', bullets: [
+        'Know when to accept agent output and when to push back — agents are fast but not always right',
+        'Architecture decisions are human: "use Cloudflare Workers not Lambda," "SQLite not Postgres for CLI tools"',
+        'Agent output scales linearly, but judgment about what to build is the bottleneck — that\'s the job',
+        'Debugged agent mistakes: thermal throttling, leaked credentials, obfuscated cron droppers, broken DNS',
+      ]},
+    ],
+    skills: ['AI Agent Management', 'Technical Direction', 'Architecture', 'Code Review', 'System Design', 'Prompt Engineering', 'Risk Assessment'],
+    kpis: ['commits_ytd', 'total_loc', 'unique_loc', 'repos_total', 'prs_merged_total', 'github_repos_updated_7d', 'bin_tools', 'cf_pages', 'ollama_models', 'fleet_total'],
+  },
+  { slug: 'prompt-engineer', num: '23', title: 'Enterprise Prompt Engineer', accent: '#4488FF',
+    summary: 'Prompt engineer at production scale. Not chatbot prompts — system-level CLAUDE.md files, multi-step agent pipelines, and orchestration patterns that produced 7.2M LOC of shipping software.',
+    sections: [
+      { title: 'System-Level Prompting', bullets: [
+        'CLAUDE.md files in every repo: project structure, conventions, brand rules, deployment targets, testing patterns',
+        'Memory systems: agent context persists across conversations via structured memory files',
+        'Constraint engineering: agents follow brand-lock rules (gradient spectrum, font stack, no solid-color containers)',
+        'Error recovery: prompts that handle agent confusion, hallucination, and scope creep',
+      ]},
+      { title: 'Multi-Agent Orchestration', bullets: [
+        'Chain agents: architect agent → implementation agent → review agent → deploy agent',
+        'Parallel agents: run research, implementation, and testing agents simultaneously',
+        'Specialist routing: security tasks to one agent, UI to another, infrastructure to a third',
+        'Context management: know when to start fresh vs continue, when to summarize vs keep full history',
+      ]},
+      { title: 'Production Outcomes', bullets: [
+        '51,211 commits in 2026 — sustained 700/day velocity, not a weekend hackathon',
+        '223 CLI tools with consistent patterns — same prompt patterns produced uniform quality',
+        'Self-healing fleet: agents wrote the autonomy scripts that keep the fleet running',
+        'This resume system: agents built the Worker, the KPI collectors, the daily pipeline, the brand CSS',
+      ]},
+    ],
+    skills: ['CLAUDE.md Authoring', 'Claude Code', 'System Prompts', 'Few-Shot Examples', 'Chain-of-Thought', 'Agent Pipelines', 'Context Window Management', 'Prompt Debugging'],
+    kpis: ['commits_ytd', 'total_loc', 'unique_loc', 'repos_total', 'github_commit_streak_days', 'github_avg_commits_per_day', 'bin_tools', 'cf_pages', 'cf_workers_total', 'github_clones_14d'],
+  },
+  { slug: 'ai-ops', num: '24', title: 'AI Operations Lead', accent: '#00D4FF',
+    summary: 'AI Ops: deploying, monitoring, and operating 27 AI models across a distributed Pi fleet with 52 TOPS of dedicated acceleration. Not just training models — running them in production 24/7.',
+    sections: [
+      { title: 'Model Operations', bullets: [
+        '27 Ollama models (48.1 GB) deployed across 3 edge inference nodes',
+        '4 custom fine-tuned CECE personality models for domain-specific generation',
+        '2x Hailo-8 NPUs (52 TOPS total) — dedicated AI silicon, not shared GPU time',
+        'Ollama Bridge SSE proxy for real-time streaming to web clients',
+      ]},
+      { title: 'AI Gateway Operations', bullets: [
+        'OpenAI-compatible API at api.blackroad.io — 29 models, 7 providers, automatic failover',
+        'Tier-based authentication and rate limiting via Cloudflare Workers',
+        'Provider abstraction: switch between Claude, GPT, Llama, Qwen without client changes',
+        'Health monitoring and model availability tracking across all providers',
+      ]},
+      { title: 'Fleet AI Infrastructure', bullets: [
+        'Thermal management: identified and fixed runaway inference loops (73°C → 52°C)',
+        'Power optimization: CPU governor tuning, voltage monitoring, undervoltage detection',
+        'Model distribution: right models on right nodes based on RAM and NPU availability',
+        'Agent coding workflow: AI agents generate code → deploy to fleet → fleet runs AI models (recursive!)',
+      ]},
+    ],
+    skills: ['Ollama', 'Hailo-8 NPU', 'Model Deployment', 'Edge AI', 'Inference Optimization', 'Thermal Management', 'AI Gateway', 'SSE Streaming'],
+    kpis: ['ollama_models', 'ollama_size_gb', 'fleet_total', 'fleet_online', 'avg_temp_c', 'cf_workers_total', 'docker_containers', 'systemd_services'],
+  },
+  { slug: 'technical-pm', num: '25', title: 'Technical Program Manager', accent: '#FF6B2B',
+    summary: 'TPM who ships by orchestrating AI agents instead of managing human sprint teams. Defined scope, wrote specs, directed agents, reviewed output, deployed to production — 51K commits in 10 months.',
+    sections: [
+      { title: 'Program Execution', bullets: [
+        'Defined and shipped 8 major projects in 10 months — OS, CLI, gateway, fleet, cloud stack, KPI system, AI identity, custom language',
+        'Managed scope across 1,810 repositories and 17 GitHub organizations',
+        'Maintained 700 commits/day velocity — not by typing, by directing and reviewing agent work',
+        'Zero project failures — every project shipped to production and is running live',
+      ]},
+      { title: 'Stakeholder Management', bullets: [
+        'Previous: $26.8M enterprise sales at Securian Financial (92% quota in Year 1)',
+        'Keynote speaker to 450+ attendees (4.8/5.0 rating)',
+        'Due diligence presenter for 24,000-advisor LPL network',
+        'Bridge technical depth and business communication — explain Hailo-8 NPUs to a board, explain ROI to engineers',
+      ]},
+      { title: 'Process & Metrics', bullets: [
+        'Built the KPI system that tracks the work: 11 collectors, 60+ metrics, daily automated pipeline',
+        'Every decision data-driven: fleet health, code velocity, cloud costs, model performance',
+        'Self-updating documentation: VERIFIED-METRICS.md auto-generated from live data',
+        'Automated reporting: Slack notifications, daily summaries, weekly digests',
+      ]},
+    ],
+    skills: ['Program Management', 'AI Agent Direction', 'Stakeholder Communication', 'Metrics & KPIs', 'Enterprise Sales', 'Keynote Speaking', 'Cross-Functional Leadership'],
+    kpis: ['commits_ytd', 'repos_total', 'github_repos_updated_7d', 'prs_merged_total', 'github_issues_closed_total', 'bin_tools', 'cf_pages', 'fleet_total', 'github_commit_streak_days'],
   },
 ];
 
@@ -748,7 +879,7 @@ function indexPage(kpis) {
   <div class="hero-orb hero-orb-1" style="background:#FF2255"></div>
   <div class="hero-orb hero-orb-2" style="background:#4488FF"></div>
   <div class="hero-badge"><span class="live-dot"></span> Live Metrics</div>
-  <h1>20 Roles. <span class="hero-role">One Platform.</span></h1>
+  <h1>25 Roles. <span class="hero-role">One Platform.</span></h1>
   <p>Every number machine-verified from live automated KPI collection across BlackRoad OS infrastructure. Updated daily.</p>
 </section>
 <div class="kpi-strip">
@@ -949,7 +1080,7 @@ function resumePage(role, kpis) {
   <div class="footer-roles">
     ${ROLES.map(r => `<a href="/${r.slug}" class="${r.slug === role.slug ? 'active' : ''}">${r.num} ${r.title}</a>`).join('')}
   </div>
-  <div class="footer-copy">Every metric sourced from <a href="https://github.com/blackboxprogramming/blackroad-os-kpis" style="opacity:.5">blackroad-os-kpis</a> &mdash; 10 collectors, 80+ keys, updated daily<br>&copy; 2026 Alexa Amundson &mdash; BlackRoad OS, Inc.</div>
+  <div class="footer-copy">Every metric sourced from <a href="https://github.com/blackboxprogramming/blackroad-os-kpis" style="opacity:.5">blackroad-os-kpis</a> &mdash; 11 collectors, 60+ keys, updated daily<br>&copy; 2026 Alexa Amundson &mdash; BlackRoad OS, Inc.</div>
 </footer>
 <div class="grad-bar"></div>
 <script>
