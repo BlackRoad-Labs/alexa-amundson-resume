@@ -4,12 +4,12 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 
 ## Code
 - 7,212,576 lines of code
-- 332 commits/day, 4,019 PRs merged all-time
+- 333 commits/day, 4,019 PRs merged all-time
 - **1,603 GitHub repositories** across 17 owners (306 active, 1,297 archived)
 - **207 Gitea repositories** across 7 organizations (self-hosted)
 - **1,810 total repositories**
 - 20 languages: Python (470), HTML (314), Shell (160), JavaScript (114), TypeScript (85), Dockerfile (24), C++ (5), CSS (3), Go (2), C (2), MDX (1), Apex (1), Ruby (1), Go Template (1), HCL (1)
-- 8085.9 GB total GitHub repo size
+- 7.9 GB total GitHub repo size
 - 11 stars, 17 organizations
 
 ## GitHub Organizations (17 owners)
@@ -53,7 +53,7 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 - 14 Docker containers
 - 11 PostgreSQL databases
 - 48 Nginx sites
-- 256 systemd services
+- 257 systemd services
 - 35 timers
 - 9 Tailscale peers
 
