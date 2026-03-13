@@ -42,7 +42,7 @@ All numbers collected by [blackroad-os-kpis](https://github.com/blackboxprogramm
 ```
 CODE
   Lines of code           7,212,717
-  Commits/day                   330
+  Commits/day                   331
   PRs merged (all time)       4,019
   GitHub repos                1,603  (306 active, 17 orgs)
   Gitea repos                   207  (7 orgs)
@@ -52,7 +52,7 @@ CODE
 
 INFRASTRUCTURE
   Fleet nodes                     4
-  Systemd services              254
+  Systemd services              252
   Docker containers              14
   Nginx sites                    48
   Fleet storage              707 GB

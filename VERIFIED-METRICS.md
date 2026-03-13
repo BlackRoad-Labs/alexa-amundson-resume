@@ -4,7 +4,7 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 
 ## Code
 - 7,212,717 lines of code
-- 330 commits/day, 4,019 PRs merged all-time
+- 331 commits/day, 4,019 PRs merged all-time
 - **1,603 GitHub repositories** across 17 owners (306 active, 1,297 archived)
 - **207 Gitea repositories** across 7 organizations (self-hosted)
 - **1,810 total repositories**
@@ -53,7 +53,7 @@ Source: blackroad-os-kpis automated collection + full GitHub API scan across all
 - 14 Docker containers
 - 11 PostgreSQL databases
 - 48 Nginx sites
-- 254 systemd services
+- 252 systemd services
 - 35 timers
 - 9 Tailscale peers
 
